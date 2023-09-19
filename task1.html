@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/" target="_self">
+ <fieldset style="width:400px;height:100px";>
+  <legend>Your Details:</legend>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+ </fieldset>
+</form>
+
+<form action="">
+ <fieldset style="width:400px;height:350px";>
+  <legend>Your Review:</legend><br>
+  <label for="cars">How did you hear about us?</label>
+  <select name="browser" id="browser">
+    <optgroup label="browsers">
+      <option value="google">Google</option>
+      <option value="edge">Edge</option>
+      <option value="firefox">Mozilla Firefox</option>
+    </optgroup>
+   </select> <br><br>
+    
+  <form>
+  <label for="question">Would you visit us again?</label><br>
+  <input type="radio" id="yes" name="yes" value="YES">
+  <label for="yes">Yes</label>
+  <input type="radio" id="no" name="no" value="NO">
+  <label for="no">No</label>
+  <input type="radio" id="maybe" name="maybe" value="MAYBE">
+  <label for="maybe">Maybe</label>
+ </form> <br> <br>
+ 
+    
+    
+   <label for="comments">Comments:</label><br>
+   <textarea name="comments" style="width:300px; height:100px;"> </textarea><br><br>
+   
+   <input type="checkbox" id="yes" name="yes" value="YES">
+   <label for="yes">Sign me up for email updates</label><br><br>
+   
+   
+   <input type="submit" value="Submit review">
+  
+ </fieldset>
+
+</form>
+
+</body>
+</html>
